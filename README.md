@@ -1,0 +1,1 @@
+This repository contains the R scripts for reproducing the analyses described in "The INSIDE assumption under all positive coding: interpretation and partial empirical assessment" by Fernando Pires Hartwig, George Davey Smith, Frank Dudbridge and Jack Bowden.
