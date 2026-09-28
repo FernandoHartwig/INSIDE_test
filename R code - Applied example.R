@@ -252,12 +252,14 @@ Var_test <- function(BetaXG, BetaYG, seBetaXG, seBetaYG) {
 # MR analyses #
 ###############
 
-#Load data from supplementary material. The code below assumes the data is in a dataframe named "data" containing four columns: BetaXG, seBetaXG, BetaYG, seBetaYG
-res <- NULL
+#Load data
+data <- read.table('Data_for_applied_example.txt', header=T, sep='\t')
 
 #Two sets of analyses:
 #a=1: uses all 27 variants
 #a=2: excludes the single clear outlier
+res <- NULL
+
 for(a in 1:2) {
   
   if(a==1) {
